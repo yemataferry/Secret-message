@@ -1,4 +1,3 @@
-// const container = document.getElementById("mainBox")
 
 const message = document.querySelector("#message")
 const encoder = document.querySelector("#encoder")
@@ -43,6 +42,8 @@ encoder.addEventListener('click', function () {
       read.forEach((cols) => {
         resulting += cols.trim()
       })
+
+      // Display the result 
 
       normTexts.innerHTML = rectOne.join('<br/>')
       results.innerHTML = resulting;
