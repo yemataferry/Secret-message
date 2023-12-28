@@ -15,11 +15,11 @@ encoder.addEventListener('click', function () {
   const msg = message.value
   if (!msg) {
     err.innerHTML =
-      `<span class='material-symbols-outlined' style='color: red;'>error</span>` +
+      `<span class=material-symbols-outlined style=color: red;>error</span>` +
       'Please Enter the Message'
   } else if (msg.trim().length < 50) {
     err.innerHTML =
-      `<span class='material-symbols-outlined' style='color: red;'>error</span>` +
+      `<span class=material-symbols-outlined style=color: red;>error</span>` +
       'The  message must be atleast 50 characters'
     return false
   } else {
