@@ -9,7 +9,7 @@ body {
   background-color: #f8f3f3;
 }
 
- .generalBox {
+.general-Box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,14 +39,14 @@ button {
   color: white;
 }
 
-.blockA {
+.block {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 10px;
   font-size: 1.3rem;
   padding-top: 2rem;
-} 
+}
 
 #error {
   text-align: center;
@@ -64,8 +64,8 @@ button {
   word-break: break-all;
 }
 
-#encodeMsg,
-#normText {
+#encode-Msg,
+#norm-Text {
   padding: 1rem;
   background-color: #f0f8ff;
   border: 1px solid black;
