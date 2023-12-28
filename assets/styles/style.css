@@ -9,7 +9,7 @@ body {
   background-color: #f8f3f3;
 }
 
-.general-Box {
+.general-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,8 +64,8 @@ button {
   word-break: break-all;
 }
 
-#encode-Msg,
-#norm-Text {
+#encodemsg,
+#normtext {
   padding: 1rem;
   background-color: #f0f8ff;
   border: 1px solid black;
