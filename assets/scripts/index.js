@@ -15,11 +15,11 @@ encoder.addEventListener('click', function () {
   const msg = message.value
   if (!msg) {
     err.innerHTML =
-      `<span class='material-symbols-outlined' style='color: red;'>error</span>` +
+      `<span class="material-symbols-outlined" style="color: red;">error</span>` +
       'Please Enter the Message'
   } else if (msg.trim().length < 50) {
     err.innerHTML =
-      `<span class='material-symbols-outlined' style='color: red;'>error</span>` +
+      `<span class="material-symbols-outlined" style="color: red;">error</span>` +
       'The  message must be atleast 50 characters'
     return false
   } else {
@@ -43,10 +43,10 @@ encoder.addEventListener('click', function () {
         resulting += cols.trim()
       })
 
-      // Display the result 
+      // Display the result
 
       normTexts.innerHTML = rectOne.join('<br/>')
-      results.innerHTML = resulting;
+      results.innerHTML = resulting
       encodedMsg.innerHTML = read.join('<br/>')
 
       function normaliseRectangle (column, row, text) {
@@ -57,7 +57,7 @@ encoder.addEventListener('click', function () {
           if (text.slice(firstRec, firstRec + column).length === column) {
             array.push(text.slice(firstRec, firstRec + column))
           } else {
-            //get the remainder as spaces
+            // get the remainder as spaces
 
             const spaces = column - text.slice(firstRec, firstRec + column).length
             const textI = text.slice(firstRec, firstRec + column)
