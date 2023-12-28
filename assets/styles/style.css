@@ -6,7 +6,7 @@
 
 body {
   margin: 4rem 9rem;
-  background-color: #f8f3f3;
+  background-color: #fcf5d2;
 }
 
 .general-box {
@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   border: 1px solid black;
-  background-color: #7eb1b47a;
+  background-color: #11858b7a;
   height: 100%;
   width: 100%;
   margin: auto;
@@ -33,7 +33,7 @@ body {
 
 button {
   border-radius: 1rem;
-  background-color: #8ea9aa;
+  background-color: #479ea1;
   font-size: 1rem;
   padding: 1rem;
   color: white;
